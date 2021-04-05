@@ -1,0 +1,11 @@
+.main {
+  background-color: rgb(98, 86, 224);
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @apply text-white;
+}
