@@ -1,8 +1,14 @@
 import { defineConfig } from "vite";
 import reactRefresh from "@vitejs/plugin-react-refresh";
+import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [reactRefresh()],
-  dedupe: ["react", "react-dom"],
+  resolve: {
+    dedupe: ["react", "react-dom"],
+    alias: {
+      "@shared": path.resolve("../shared/src"),
+    },
+  },
 });

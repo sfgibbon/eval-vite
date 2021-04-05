@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { useCounter } from "../../shared/src/hooks/useCounter";
-import { MyComponent } from "../../shared/src/MyComponent";
+import { useCounter } from "@shared/hooks/useCounter";
+import { MyComponent } from "@shared//MyComponent";
 
 function App() {
   const [count, setCount] = useState(0);
