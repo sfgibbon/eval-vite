@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App ">
-      <header className="bg-green-900 flex flex-col items-center text-white justify-center text-3xl min-h-screen">
+      <header className="bg-green-700 flex flex-col items-center text-white justify-center text-3xl min-h-screen">
         <img src={logo} className="h-12" alt="logo" />
         <p>Hello Vite + React!</p>
         <p>
@@ -37,10 +37,12 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Vite Docs!!!!!!
+            Vite Docs
           </a>
         </p>
-        <MyComponent />
+        <div className="p-12">
+          <MyComponent />
+        </div>
       </header>
     </div>
   );
